@@ -1,0 +1,138 @@
+@media(max-width:770px){
+    .navbarlink{
+        display: none;
+    }
+    .navbarimg{
+        padding-right: 8vw;
+    }
+    .toglbtn{
+        margin-right: 4vw;
+    }
+   
+}
+
+@media(min-width:770px){
+    .toglbtn{
+        display: none;
+    }
+}
+@media(max-width:767px){
+    .mblevw{
+        display: block;
+        width: 100%;
+    }
+    .mblevw1{
+        display: none;
+    }
+    .heading h1{
+      /* padding-bottom: 30px; */
+    }
+    .imgpage{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: .3%;
+        height: auto;
+    }
+    .chck{
+        width: 100%;
+    }
+    .imgpage h3{
+        margin-top: 5%;
+    } 
+    .ftr{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height:auto;
+         grid-row-gap: 2%;
+        padding-left: 5vw;
+        padding-bottom: 18vh;
+    } 
+    .finalimg img{
+        width: 100%;
+        height: 24vh;
+    }
+    .fstftr img{
+        width:30vw;
+    }
+    .sixthftr img{
+        width: 30vw;
+        padding-bottom: 20vh;
+    }
+    .ftr a{
+      font-size: 18px; 
+      line-height: 8vh;
+    }
+    .ftr h4{
+        font-size: 22px;
+        margin-top: 2vh;
+        line-height: 10vh;
+    }
+    .icns img{
+        width: 50px;
+        height: 50px;
+        margin-top: 2vh; 
+    }
+}
+/* ----------------------------------------- */
+
+@media(max-width:470px){
+    .mblevw{
+        display: block;
+        width: 100%;
+    }
+    .mblevw1{
+        display: none;
+    }
+    .heading h1{
+      padding-bottom: 30px;
+    }
+    .imgpage{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: .3%;
+        height: auto;
+    }
+    .chck{
+        width: 100%;
+    }
+    .imgpage h3{
+        margin-top: 10%;
+    } 
+    .ftr{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+         grid-row-gap: 2%;
+        padding-left: 5vw;
+        padding-bottom: 18vh;
+    } 
+    .finalimg img{
+        width: 100%;
+        height: 22vh;
+    }
+    .fstftr img{
+        width:45vw;
+    }
+    .sixthftr img{
+        width: 45vw;
+    }
+    .icns img{
+        width: 40px;
+        height: 40px;
+        margin-top: 2vh; 
+    }
+    .ftr a{
+        font-size: 16px; 
+        line-height: 3vh;
+      }
+      .ftr h4{
+        font-size: 20px;
+        margin-top: .5vh;
+        line-height: 6vh;
+}
+}
+/* ------------------------------------------------------------------ */
